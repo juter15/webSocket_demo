@@ -1,0 +1,14 @@
+server:
+  port: 9293
+spring:
+  application:
+    name: SOCKET-DEMO
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    cache: false
+  devtools:
+    livereload:
+      enabled: true
+  freemarker:
+    cache: false
